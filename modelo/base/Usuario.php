@@ -29,7 +29,7 @@ class Usuario implements iModeloBase{
    * @param $usuario
    * @param $password
    */
-  public function __construct($login=NULL,$nombre=NULL,$password=NULL) {
+  public function __construct($login=NULL,$nombre=NULL) {
     if(!empty($login))$this->setLogin($login);
     if(!empty($nombre))$this->setNombre($nombre);
     if(!empty($password))$this->setPassword($password);
