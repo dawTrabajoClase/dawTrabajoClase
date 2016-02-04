@@ -1,9 +1,14 @@
 <?php
 /**
  * Created by PhpStorm.
- * User:
- * Date: 30/12/15
- * Time: 10:58
+ * User: 2gdwes07
+ * Date: 8/1/16
+ * Time: 12:54
  */
 
+namespace blog1\modelo\base;
 
+
+class Imagen {
+
+}

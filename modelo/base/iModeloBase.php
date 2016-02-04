@@ -1,8 +1,15 @@
 <?php
 /**
  * Created by PhpStorm.
- * User:
- * Date: 29/12/15
- * Time: 19:24
+ * User: 2gdwes07
+ * Date: 8/1/16
+ * Time: 12:49
  */
 
+namespace blog1\modelo\base;
+
+
+interface iModeloBase {
+  public function save();
+  public function remove();
+}
